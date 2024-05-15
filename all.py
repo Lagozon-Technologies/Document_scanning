@@ -21,8 +21,8 @@ import toml
 
 api_key = st.secrets["API_KEY"]
 
-img = Image.open(r"images.png")
-st.set_page_config(page_title="DocGenius: Document Generation AI", page_icon=img)
+img = Image.open(r"imagess.png")
+st.set_page_config(page_title="InsightVault: Document Generation AI", page_icon=img)
 col1, col2 = st.columns([1, 4])  
 
 
