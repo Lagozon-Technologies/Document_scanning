@@ -19,7 +19,7 @@ from langchain_community.callbacks import get_openai_callback
 import toml
 
 
-api_key = st.secrets["API_KEY"]
+api_key = os.environ['API_KEY']
 
 img = Image.open(r"imagess.png")
 st.set_page_config(page_title="InsightVault: Document Generation AI", page_icon=img)
